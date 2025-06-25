@@ -1,4 +1,4 @@
-#!/usr/bin/env node
+
 
 const getEndpoint = 'https://jsonplaceholder.typicode.com/posts?_limit=3'
 const methodType = {
