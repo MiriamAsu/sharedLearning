@@ -1,4 +1,4 @@
-#!/usr/bin/env node
+
 
 async function correctQueryCode() {
 	try {
@@ -13,7 +13,7 @@ async function correctQueryCode() {
 			throw new Error(`HTTP error! status: ${response.status}`);
 		}
 		const data = await response.json();
-		console.log(`API Test Successful with status code of: ${response.status}\n${JSON.stringify(data, null, 4)}`);
+		console.log(`API Test Successful with status code of: ${response.status}\n${JSON.stringify(data, null, 3)}`);
 	} catch (error) {
 		console.error('API Test Failed:', error);
 	}
