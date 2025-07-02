@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import useCustomHook from './components/justProps';
 import { Component1 } from './components/justComponent';
+import { UseEffectComponent } from './components/usingUseEffect';
 // import NAME_OF_FUNCTION from 'PATH_TO_FILE';
 
 
@@ -30,9 +31,11 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+        <UseEffectComponent /> using the imported component
         <p>
-          Edit <code>src/App.js</code> and save to reload.<p>{count}</p>
+          Edit <code>src/App.js</code> and save to reload.
         </p>
+        <p>{count}</p>
 
         <button
           onClick={() => setCount(count + 1)}>
