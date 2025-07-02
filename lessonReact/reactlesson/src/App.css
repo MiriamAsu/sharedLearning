@@ -36,3 +36,20 @@
     transform: rotate(360deg);
   }
 }
+
+.useEffectComponent h4 {
+  color: yellow;
+}
+.useEffectComponent p {
+  color: green;
+}
+.useEffectComponent a {
+  color: white;
+}
+.useEffectComponent img {
+  width: 20%;
+  border-radius: 10%;
+}
+.details p {
+  color: pink;
+}
