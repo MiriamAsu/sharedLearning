@@ -43,6 +43,9 @@
 .useEffectComponent p {
   color: green;
 }
+.useEffectComponent span {
+  color: saddlebrown;
+}
 .useEffectComponent a {
   color: white;
 }
