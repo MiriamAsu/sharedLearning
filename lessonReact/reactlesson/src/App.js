@@ -3,7 +3,8 @@ import logo from './logo.svg';
 import './App.css';
 import useCustomHook from './components/justProps';
 import { Component1 } from './components/justComponent';
-import { UseEffectComponent } from './components/usingUseEffect';
+// import { UseEffectComponent } from './components/usingUseEffect';
+import UseEffectComponent from './components/usingUseEffect';
 // import NAME_OF_FUNCTION from 'PATH_TO_FILE';
 
 
