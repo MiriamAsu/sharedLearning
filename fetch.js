@@ -13,7 +13,7 @@ async function fetchApi(){
     try{
         const response = await fetch(getEndpoint, methodType);
         if(!response.ok){
-            throw new error(`HTTP error! status: ${response.status}`);
+            throw new Error(`HTTP error! status: ${response.status}`);
         }
         const data = await response.json();
         console.log(`API Test is successful with the status code of: ${response.status}/n${JSON.stringify(data, null, 4)}`);
